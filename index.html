@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Letters for you</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <div class="bg-orbs" aria-hidden="true"></div>
   <div class="grain" aria-hidden="true"></div>
@@ -21,58 +25,20 @@
   </header>
 
   <main class="site-main">
-    <section class="hero">
-      <p class="hero-kicker">A quiet corner of the internet</p>
-      <h1>Words I meant to say</h1>
+    <section class="content-box content-box--letters" aria-labelledby="letters-heading">
+      <header class="content-box__header">
+        <p class="content-box__kicker">From my heart</p>
+        <h2 class="content-box__title" id="letters-heading">Letters</h2>
+        <p class="content-box__subtitle">Words I meant to say</p>
+      </header>
+      <div class="letter-grid">
+        <a class="letter-card" href="./letter-1.html">
+          <p class="card-date">05/10/2026</p>
+          <h3 class="card-title">If you’re reading this</h3>
+        </a>
+      </div>
     </section>
-
-    <div class="home-sections">
-      <section class="content-box content-box--book" aria-labelledby="book-heading">
-        <header class="content-box__header">
-          <p class="content-box__kicker">The story</p>
-          <h2 class="content-box__title" id="book-heading">Book: The Girl Through My Eyes</h2>
-          <p class="content-box__subtitle">Chapters written for you</p>
-        </header>
-        <div class="letter-grid">
-          <a class="letter-card letter-card--book" href="./chapter-1.html">
-            <p class="card-date">24/06/2026</p>
-            <h3 class="card-title">Chapter 1: Glimpses of You</h3>
-            <p class="card-excerpt">The first time I met her was on the first of May.</p>
-          </a>
-          <a class="letter-card letter-card--book" href="./chapter-2.html">
-            <p class="card-date">24/06/2026</p>
-            <h3 class="card-title">Chapter 2: The Things I Noticed</h3>
-            <p class="card-excerpt">Some people leave behind memories...</p>
-          </a>
-        </div>
-      </section>
-
-      <section class="content-box content-box--letters" aria-labelledby="letters-heading">
-        <header class="content-box__header">
-          <p class="content-box__kicker">From my heart</p>
-          <h2 class="content-box__title" id="letters-heading">Letters</h2>
-          <p class="content-box__subtitle">Words I meant to say</p>
-        </header>
-        <div class="letter-grid">
-          <a class="letter-card" href="./letter-1.html">
-            <p class="card-date">13/05/2026</p>
-            <h3 class="card-title">If you’re reading this</h3>
-          </a>
-          <a class="letter-card" href="./letter-2.html">
-            <p class="card-date">18/05/2026</p>
-            <h3 class="card-title">My intentions?</h3>
-          </a>
-          <a class="letter-card" href="./letter-3.html">
-            <p class="card-date">30/06/2026</p>
-            <h3 class="card-title">Things I wanted to say</h3>
-          </a>
-          <a class="letter-card" href="./letter-4.html">
-            <p class="card-date">07/08/2026</p>
-            <h3 class="card-title">Last things</h3>
-          </a>
-        </div>
-      </section>
-    </div>
   </main>
 </body>
+
 </html>
